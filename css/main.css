@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #373845;
+}
+
+a:hover {
+    color: #595a71;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    padding: 0 10%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header ul li {
+    display: inline-block;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+header ul li .active {
+    padding: 5px 15px;
+    background: #b2bac1;
+    border-radius: 20px;
+}
+
+header ul li .active:hover {
+    color: #fff;
+    background: #616569;
+}
+
+header ul li a {
+    position: relative;
+    bottom: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+    height: 500px;
+}
+
+.wrapper > div {
+    margin-left: 150px;
+    color: #373845;
+    height: 500px;
+}
+
+.wrapper > div h1 {
+    font-weight: 400;
+    font-size: 90px;
+    margin-top: 0;
+}
+
+.wrapper > div h2, .wrapper > div h3 {
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.wrapper > div h3 {color: #5CDDBC;}
+
+.wrapper > div p {
+    font-size: 18px;
+    width: 322px;
+    margin: 20px 0;
+}
+
+.wrapper > div button {
+    font-weight: 600;
+    font-size: 18px;
+    color: #2F323A;
+    background: #5CDDBC;
+    border-radius: 25px;
+    border: 0;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.wrapper > div button:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    margin-top: 150px;
+    font-weight: 400;
+    font-size: 90px;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.wraper {
+    background: #5CDDBC;
+    width: 104%;
+    position: relative;
+    right: 13%;
+    display: flex;
+    padding: 0 12%;
+    justify-content: space-between;
+    align-items: center;
+    height: 230px;
+    color: #216F5B;
+    margin: 60px 0;
+}
+
+.wraper h1 {
+    font-size: 70px;
+    margin-top: 15px;
+}
+
+.wraper h2 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.wraper img {
+    height: 230px;
+    position: relative;
+    top: 8px;
+    right: 30px;
+}
